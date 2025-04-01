@@ -1,0 +1,82 @@
+/* Include Open Sans in your CSS */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+    body {
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+       
+    header {
+      background-color: #29053b;
+      color: white;
+      text-align: center;
+      padding: 1em 0;
+    }
+
+    /* Centering the SVG within a fixed-size container */
+    .svg-container {
+      width: 500px;
+      height: 400px; /* Fixed size */
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      padding-left: 75px; /* Centers the container itself */
+      background-color: #f9f9f9; /* Optional for better visibility */
+      border: 1px solid #ccc; /* Optional to outline the container */
+    }
+    
+    nav ul {
+      list-style: none;
+      padding: 0;
+    }
+    
+    nav ul li {
+      display: inline;
+      margin: 0 10px;
+    }
+    
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+    }
+    
+    main section {
+      padding: 20px;
+    }
+    
+    main section:nth-child(even) {
+      background-color: #f9f9f9;
+    }
+    
+    .collapsible {
+      background-color: #29053b;
+      color: white;
+      cursor: pointer;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: none;
+      text-align: left;
+      outline: none;
+    }
+    
+    .content {
+      display: none;
+      padding: 10px 0;
+    }
+    
+    .card {
+      margin: 10px 0;
+      border: 2px solid #ccc;
+      padding: 15px;
+      background-color: #f1f1f1;
+    }
+    
+    footer {
+      text-align: center;
+      background-color: #29053b;
+      color: white;
+      padding: 10px 0;
+    }
